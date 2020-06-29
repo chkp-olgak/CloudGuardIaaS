@@ -655,7 +655,7 @@
             "imageReference": {
               "publisher": "checkpoint",
               "offer": "check-point-cg-r8030",
-              "sku": "sg-ngtp"
+              "sku": "sg-ngtp-v2"
             },
             "count": "[steps('autoprovision').vmCount]"
           },
@@ -737,7 +737,7 @@
             "imageReference": {
               "publisher": "checkpoint",
               "offer": "check-point-cg-r8030",
-              "sku": "sg-ngtx"
+              "sku": "sg-ngtx-v2"
             },
             "count": "[steps('autoprovision').vmCount]"
           },

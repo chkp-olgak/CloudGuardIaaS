@@ -252,7 +252,7 @@
             "imageReference": {
               "publisher": "checkpoint",
               "offer": "check-point-cg-r8030",
-              "sku": "sg-ngtp"
+              "sku": "sg-ngtp-v2"
             },
             "count": 1
           },
@@ -334,7 +334,7 @@
             "imageReference": {
               "publisher": "checkpoint",
               "offer": "check-point-cg-r8030",
-              "sku": "sg-ngtx"
+              "sku": "sg-ngtx-v2"
             },
             "count": 1
           },
@@ -637,12 +637,12 @@
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z]{12,30}$",
-              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 8-30 characters long."
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 12-30 characters long."
             },
             "options": {
               "hideConfirmation": false
             },
-            "visible": "[equals(steps('chkp').installationType, 'gateway')]"
+            "visible": "[not(equals(steps('chkp').installationType, 'standalone'))]"
           },
           {
             "name": "bootstrapScript",

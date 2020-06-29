@@ -188,7 +188,7 @@
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z]{12,30}$",
-              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 8-30 characters long."
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 12-30 characters long."
             },
             "options": {
               "hideConfirmation": false
