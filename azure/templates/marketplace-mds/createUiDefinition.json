@@ -184,7 +184,7 @@
               "password": "SIC key",
               "confirmPassword": "Confirm SIC key"
             },
-            "toolTip": "Set the Secure Internal Communication one time secret used to set up trust between the primary and secondary servers. SIC key must be provided if installing a secondary Molti-Domain Server.",
+            "toolTip": "Set the Secure Internal Communication one time secret used to set up trust between the primary and secondary servers. SIC key must be provided if installing a secondary Multi-Domain Server.",
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z]{12,30}$",
